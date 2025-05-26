@@ -1,0 +1,36 @@
+---
+title: "Tsunami Mitigation App"
+description: "App to display tsunami mitigation places"
+image: "/placeholder.svg?height=600&width=800"
+tags: ["Android", "Kotlin", "Maps", "GIS"]
+---
+
+# Tsunami Mitigation App
+
+An Android application for displaying tsunami mitigation locations in Aceh.
+
+## Overview
+
+Developed during an internship at the Tsunami and Disaster Mitigation Research Center at Syiah Kuala University, this application provides information on over 100 tsunami mitigation places across 5 regencies in Aceh.
+
+## Features
+
+- **Interactive Map**: Visual representation of mitigation locations
+- **Detailed Information**: Comprehensive data about each location
+- **Offline Access**: Full functionality without internet connection
+- **Navigation**: Directions to mitigation locations
+- **Emergency Protocols**: Information on what to do during a tsunami warning
+
+## Technical Details
+
+- **Architecture**: MVVM pattern
+- **Maps Integration**: Google Maps API with custom styling
+- **GeoJSON Processing**: Custom parser for map shape data
+- **Local Storage**: SQLite database for offline access
+- **UI Design**: Material Design components with custom theming
+
+## Challenges and Solutions
+
+Converting complex GIS data into a format usable by the mobile application was a significant challenge. I developed a custom processing pipeline that converts GeoJSON data into optimized formats suitable for mobile rendering.
+
+Ensuring the application remained functional during emergency situations (when network infrastructure might be compromised) required implementing a robust offline-first architecture with comprehensive local caching of all critical data.

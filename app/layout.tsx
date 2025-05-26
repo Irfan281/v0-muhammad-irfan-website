@@ -1,0 +1,27 @@
+import type React from "react"
+import "@/app/globals.css"
+import { Inter } from "next/font/google"
+import { Navbar } from "@/components/navbar"
+
+const inter = Inter({ subsets: ["latin"] })
+
+export const metadata = {
+  title: "Muhammad Irfan | Android Developer",
+  description: "Personal portfolio website of Muhammad Irfan, an Android Developer with 2+ years of experience",
+    generator: 'v0.dev'
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} min-h-screen bg-gradient-to-b from-gray-950 to-black text-white`}>
+        <Navbar />
+        {children}
+      </body>
+    </html>
+  )
+}

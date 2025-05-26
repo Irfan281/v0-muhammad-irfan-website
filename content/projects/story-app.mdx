@@ -1,0 +1,38 @@
+---
+title: "STORY APP"
+description: "Instagram-like image-sharing application"
+image: "/placeholder.svg?height=600&width=800"
+tags: ["Android", "Kotlin", "Google Maps API", "Location"]
+github: "https://github.com/irfan281/StoryApp"
+---
+
+# STORY APP
+
+An Instagram-like image-sharing application built with Kotlin for Android.
+
+## Overview
+
+STORY APP allows users to share images with location data, similar to Instagram. Users can authenticate, upload images from their camera or gallery, and change the app's language through localization features.
+
+## Features
+
+- **User Authentication**: Secure login and registration system
+- **Image Upload**: Take photos with the camera or select from gallery
+- **Location Sharing**: Attach location data to images
+- **Interactive Map**: View stories on a map interface
+- **Localization**: Support for multiple languages
+
+## Technical Details
+
+- **Architecture**: MVVM (Model-View-ViewModel)
+- **Maps Integration**: Google Maps API
+- **Location Services**: Fused Location Provider API
+- **Camera Integration**: CameraX API
+- **Storage**: DataStore Preferences for user settings
+- **UI Components**: Material Design components
+
+## Challenges and Solutions
+
+Integrating the camera functionality with location services presented a challenge in terms of permission handling and user experience. We implemented a streamlined permission flow that guides users through necessary permissions while explaining why they're needed.
+
+Optimizing image uploads to balance quality and performance was another challenge. We implemented a compression algorithm that maintains visual quality while significantly reducing file size for faster uploads and reduced data usage.

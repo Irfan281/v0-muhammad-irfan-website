@@ -1,0 +1,38 @@
+---
+title: "NANAMYUK"
+description: "Plant watering management and recommender app"
+image: "/placeholder.svg?height=600&width=800"
+tags: ["Android", "Kotlin", "Retrofit", "REST API"]
+github: "https://github.com/irfan281/NanamYuk"
+---
+
+# NANAMYUK
+
+A plant watering management and recommender application built with Kotlin for Android.
+
+## Overview
+
+Designed and implemented in a 2-person team over the course of 1 month, NANAMYUK helps users manage their plants' watering schedules and provides recommendations for plant care.
+
+## Features
+
+- **User Authentication**: Secure login and registration system
+- **Plant Management**: Add, edit, and remove plants from your collection
+- **Watering Schedule**: Set and receive notifications for watering schedules
+- **Plant Recommendations**: Get recommendations based on your preferences and environment
+- **REST API Integration**: Consume data from a backend service using Retrofit
+
+## Technical Details
+
+- **Architecture**: MVVM (Model-View-ViewModel)
+- **Networking**: Retrofit for API consumption
+- **Local Storage**: Room Database for offline capabilities
+- **Dependency Injection**: Koin
+- **Asynchronous Programming**: Kotlin Coroutines
+- **UI Components**: Material Design components and custom views
+
+## Challenges and Solutions
+
+One of the main challenges was implementing an efficient algorithm for plant recommendations based on multiple factors such as user location, climate, and user preferences. We solved this by creating a weighted scoring system that prioritizes different factors based on their importance.
+
+Another challenge was ensuring the app worked offline. We implemented a robust caching strategy using Room Database to store essential data locally, allowing users to access their plant information even without an internet connection.
