@@ -94,7 +94,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/kotlin_icon.svg?height=48&width=48"
                         alt="Kotlin logo"
                         fill
                         className="object-contain"
@@ -105,7 +105,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/android_logo.svg?height=48&width=48"
                         alt="Android logo"
                         fill
                         className="object-contain"
@@ -116,7 +116,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/jetpack_compose_logo.svg?height=48&width=48"
                         alt="Jetpack Compose logo"
                         fill
                         className="object-contain"
@@ -127,7 +127,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/mvvm_logo.svg"
                         alt="MVVM architecture logo"
                         fill
                         className="object-contain"
@@ -138,7 +138,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/clean_architecture_logo.svg"
                         alt="Clean Architecture logo"
                         fill
                         className="object-contain"
@@ -149,7 +149,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/coroutines_logo.svg"
                         alt="Kotlin Coroutines logo"
                         fill
                         className="object-contain"
@@ -160,7 +160,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/dagger_hilt_logo.svg"
                         alt="Dagger Hilt logo"
                         fill
                         className="object-contain"
@@ -171,7 +171,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/retrofit_logo.svg"
                         alt="Retrofit logo"
                         fill
                         className="object-contain"
@@ -182,7 +182,7 @@ export default function Home() {
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
                       <Image
-                        src="/placeholder.svg?height=48&width=48"
+                        src="/room_logo.svg"
                         alt="Room Database logo"
                         fill
                         className="object-contain"
@@ -192,7 +192,12 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col items-center justify-center rounded-lg border border-gray-800 bg-black/20 p-4 transition-all hover:border-green-600/30 hover:bg-black/30">
                     <div className="relative h-12 w-12 mb-2">
-                      <Image src="/placeholder.svg?height=48&width=48" alt="Git logo" fill className="object-contain" />
+                      <Image
+                        src="/git_logo.svg"
+                        alt="Git logo"
+                        fill
+                        className="object-contain"
+                      />
                     </div>
                     <span className="text-sm font-medium text-gray-200">Git</span>
                   </div>

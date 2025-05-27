@@ -1,3 +1,4 @@
+/** @jsxImportSource react */
 "use client"
 
 import { useState } from "react"
@@ -84,13 +85,12 @@ export function ResumeSection() {
                       seamless migration of over 1 million users after IndiHome was integrated into MyTelkomsel.
                     </li>
                     <li>
+                      Collaborated with cross-functional teams, including Solution Architects, Back-End Developers, and QA, to define, design, and deliver new features by analyzing technical documentation, integrating RESTful APIs, and resolving technical issues.
+                    </li>
+                    <li>
                       Implemented MVVM architecture with Koin for dependency injection and adopted a multi-module
                       structure to scale the codebase efficiently, while maintaining a focus on delivering pixel-perfect
                       UI designs.
-                    </li>
-                    <li>
-                      Spearheaded the migration of key IndiHome hero features to Jetpack Compose, boosting development
-                      efficiency and enhancing UI consistency across 5 critical user flows.
                     </li>
                   </ul>
                 </CardContent>
