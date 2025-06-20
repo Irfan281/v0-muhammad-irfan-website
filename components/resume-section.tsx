@@ -18,42 +18,12 @@ export function ResumeSection() {
       <div className="mb-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
         <h3 className="text-xl font-semibold text-green-300">Muhammad Irfan - Android Developer</h3>
         <Button className="bg-green-600 hover:bg-green-700">
-          <Download className="mr-2 h-4 w-4" /> Download CV
+          <a href="/MuhammadIrfan_CV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <Download className="mr-2 h-4 w-4" /> Download CV
+          </a>
         </Button>
       </div>
 
-      <ScrollAnimation>
-        <Card className="border-gray-800 bg-black/50 backdrop-blur-sm">
-          <CardHeader className="pb-4">
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <CardTitle className="text-xl font-bold">Contact Information</CardTitle>
-                <CardDescription className="text-gray-400">Get in touch with me</CardDescription>
-              </div>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div className="flex flex-col gap-1">
-                <span className="text-sm font-medium text-gray-400">Phone</span>
-                <span className="text-gray-200">+62 895 6110 88149</span>
-              </div>
-              <div className="flex flex-col gap-1">
-                <span className="text-sm font-medium text-gray-400">Email</span>
-                <span className="text-gray-200">hi.irfan@outlook.com</span>
-              </div>
-              <div className="flex flex-col gap-1">
-                <span className="text-sm font-medium text-gray-400">LinkedIn</span>
-                <span className="text-gray-200">linkedin.com/irfan281</span>
-              </div>
-              <div className="flex flex-col gap-1">
-                <span className="text-sm font-medium text-gray-400">GitHub</span>
-                <span className="text-gray-200">github.com/irfan281</span>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </ScrollAnimation>
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="mt-8">
         <TabsList className="grid w-full grid-cols-4 bg-black/50 backdrop-blur-sm">
