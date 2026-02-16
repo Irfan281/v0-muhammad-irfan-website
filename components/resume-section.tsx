@@ -16,9 +16,9 @@ export function ResumeSection() {
   return (
     <div className="mx-auto max-w-4xl">
       <div className="mb-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
-        <h3 className="text-xl font-semibold text-green-300">Muhammad Irfan - Android Developer</h3>
+        <h3 className="text-xl font-semibold text-green-300">Muhammad Irfan - Android Software Engineer</h3>
         <Button className="bg-green-600 hover:bg-green-700">
-          <a href="/MuhammadIrfan_CV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center">
+          <a href="/CV_Muhammad_Irfan_2026.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center">
             <Download className="mr-2 h-4 w-4" /> Download CV
           </a>
         </Button>
@@ -40,27 +40,30 @@ export function ResumeSection() {
                 <CardHeader>
                   <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
                     <div>
-                      <CardTitle className="text-lg font-bold">PT. Phincon</CardTitle>
+                      <CardTitle className="text-lg font-bold">BookCabin (Lion Group)</CardTitle>
                       <CardDescription className="text-gray-400">
-                        Android Developer | Oct 2023 - Present
+                        Android Developer | Jul 2025 - Jan 2026
                       </CardDescription>
                     </div>
-                    <Badge className="bg-green-600 text-white">Full Time</Badge>
+                    <Badge className="bg-green-600 text-white">Contract</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="ml-6 list-disc space-y-2 text-gray-200">
                     <li>
-                      Contributed to the MyTelkomsel Android application as part of the IndiHome team, supporting the
-                      seamless migration of over 1 million users after IndiHome was integrated into MyTelkomsel.
+                      Led end-to-end revamp of the app&apos;s homepage using Kotlin and restructured architecture within a legacy codebase, completing the initiative in one month and improving app performance by 35%.
                     </li>
                     <li>
-                      Collaborated with cross-functional teams, including Solution Architects, Back-End Developers, and QA, to define, design, and deliver new features by analyzing technical documentation, integrating RESTful APIs, and resolving technical issues.
+                      Migrated legacy Data Binding implementations to modern Kotlin-based alternatives, reducing technical debt by 60% and eliminating binding-related crashes entirely.
                     </li>
                     <li>
-                      Implemented MVVM architecture with Koin for dependency injection and adopted a multi-module
-                      structure to scale the codebase efficiently, while maintaining a focus on delivering pixel-perfect
-                      UI designs.
+                      Collaborated with Product, Backend, and QA teams to deliver high-quality features, maintaining a 99% crash-free rate.
+                    </li>
+                    <li>
+                      Implemented a new authentication system with enhanced session handling and refresh tokens, reducing unwanted session expirations by 100%.
+                    </li>
+                    <li>
+                      Managed complete feature lifecycle from technical design to Google Play Console publishing, executing 30 production releases including features and bugfixes.
                     </li>
                   </ul>
                 </CardContent>
@@ -78,27 +81,33 @@ export function ResumeSection() {
                 <CardHeader>
                   <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
                     <div>
-                      <CardTitle className="text-lg font-bold">Department of Biology, Syiah Kuala University</CardTitle>
+                      <CardTitle className="text-lg font-bold">PT. Phincon (MyTelkomsel)</CardTitle>
                       <CardDescription className="text-gray-400">
-                        Android & Backend Developer | Aug 2022 - Jun 2023
+                        Android Developer | Aug 2023 - Jun 2025
                       </CardDescription>
                     </div>
-                    <Badge className="bg-green-600 text-white">Freelance</Badge>
+                    <Badge className="bg-green-600 text-white">Full-time</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="ml-6 list-disc space-y-2 text-gray-200">
                     <li>
-                      Designed and developed an Android biodiversity information system using Kotlin and Express.js for
-                      the backend, from scratch.
+                      Contributed to MyTelkomsel Android app supporting seamless migration of 1M+ IndiHome users post-merger, achieving 100% successful user transition.
                     </li>
                     <li>
-                      Optimized existing species data by 40% by cleaning up duplicate and unclear entries and
-                      successfully implementing them into the system.
+                      Implemented MVVM architecture with Kotlin, Koin DI and multi-module structure, improving codebase scalability and reducing build times by 40%.
                     </li>
                     <li>
-                      Utilized the MVVM architecture pattern with Kotlin Flow and dependency injection using
-                      Dagger-Hilt, while adopting an offline-first approach by implementing data caching.
+                      Collaborated with Solution Architects, Backend teams, and QA to design and deliver 15+ features by analyzing technical specs and integrating APIs.
+                    </li>
+                    <li>
+                      Resolved 50+ critical bugs across QA, staging, and production environments, reducing crash rates significantly.
+                    </li>
+                    <li>
+                      Delivered pixel-perfect UI implementations matching Figma designs, enhancing user satisfaction scores.
+                    </li>
+                    <li>
+                      Integrated third-party SDKs (analytics, payment, authentication) ensuring seamless functionality and maintaining app stability.
                     </li>
                   </ul>
                 </CardContent>
@@ -116,25 +125,24 @@ export function ResumeSection() {
                 <CardHeader>
                   <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
                     <div>
-                      <CardTitle className="text-lg font-bold">
-                        Tsunami and Disaster Mitigation Research Center
-                      </CardTitle>
+                      <CardTitle className="text-lg font-bold">Syiah Kuala University - Biology Department</CardTitle>
                       <CardDescription className="text-gray-400">
-                        Android Developer | Jul 2022 - Aug 2022
+                        Android & Backend Developer | Aug 2022 - Jun 2023
                       </CardDescription>
                     </div>
-                    <Badge className="bg-green-600 text-white">Internship</Badge>
+                    <Badge className="bg-green-600 text-white">Freelance</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="ml-6 list-disc space-y-2 text-gray-200">
                     <li>
-                      Completed a solo internship project developing an Android application from scratch to display data
-                      on over 100 tsunami mitigation places across 5 regencies in Aceh.
+                      Designed and developed a biodiversity information system Android app with Express.js backend from scratch, serving 50+ researchers.
                     </li>
                     <li>
-                      Designed the application interface, converted map shape data, and implemented essential features
-                      within a one-month timeframe.
+                      Optimized species database by 40% through data cleaning and deduplication, improving query performance by 50%.
+                    </li>
+                    <li>
+                      Implemented MVVM with Kotlin Flow and Dagger-Hilt DI, adopting offline-first architecture with Room database caching.
                     </li>
                   </ul>
                 </CardContent>
@@ -152,22 +160,24 @@ export function ResumeSection() {
                 <CardHeader>
                   <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
                     <div>
-                      <CardTitle className="text-lg font-bold">Bangkit Academy 2022</CardTitle>
+                      <CardTitle className="text-lg font-bold">
+                        Tsunami and Disaster Mitigation Research Center
+                      </CardTitle>
                       <CardDescription className="text-gray-400">
-                        Android Mobile Development | Feb 2022 - Jul 2022
+                        Android Developer Intern | Jul 2022 - Aug 2022
                       </CardDescription>
                     </div>
-                    <Badge className="bg-green-600 text-white">Apprenticeship</Badge>
+                    <Badge className="bg-green-600 text-white">Internship</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="ml-6 list-disc space-y-2 text-gray-200">
-                    <li>Graduated as a Distinction Graduate, a top 10% from the 3,100 cohort.</li>
                     <li>
-                      Collaborated with a 6-person team from Machine Learning and Cloud Computing learning path for the
-                      final project utilizing Git.
+                      Developed an Android app from scratch displaying 100+ tsunami mitigation locations across 5 regencies in Aceh within one month.
                     </li>
-                    <li>Successfully selected as one of the top 53 Capstone Final Projects from 433 teams.</li>
+                    <li>
+                      Implemented map integration with custom markers and offline data storage for emergency accessibility.
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -184,20 +194,12 @@ export function ResumeSection() {
                     <div>
                       <CardTitle className="text-lg font-bold">Syiah Kuala University</CardTitle>
                       <CardDescription className="text-gray-400">
-                        Bachelor of Informatics | Aug 2019 - Jun 2023
+                        Bachelor of Informatics | Banda Aceh, Indonesia
                       </CardDescription>
                     </div>
                     <Badge className="bg-green-600 text-white">GPA: 3.93/4.00</Badge>
                   </div>
                 </CardHeader>
-                <CardContent>
-                  <ul className="ml-6 list-disc space-y-2 text-gray-200">
-                    <li>
-                      Mentored over 80 students in fundamental and object-oriented programming as a laboratory mentor.
-                    </li>
-                    <li>Graduated with honors, achieving a GPA of 3.93 out of 4.00.</li>
-                  </ul>
-                </CardContent>
               </Card>
             </motion.div>
           </ScrollAnimation>
@@ -211,42 +213,66 @@ export function ResumeSection() {
                   <CardTitle className="text-lg font-bold">Technical Skills</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Kotlin</span>
+                  <div className="space-y-4">
+                    <div>
+                      <p className="mb-2 text-sm font-medium text-gray-400">Languages</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["Kotlin", "Java", "Python", "JavaScript", "PHP", "SQL"].map((s) => (
+                          <Badge key={s} variant="secondary" className="bg-black/30 text-green-300">
+                            {s}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Java</span>
+                    <div>
+                      <p className="mb-2 text-sm font-medium text-gray-400">Android</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["Android SDK", "Jetpack Components", "MVVM", "Clean Architecture", "Multi-Module"].map((s) => (
+                          <Badge key={s} variant="secondary" className="bg-black/30 text-green-300">
+                            {s}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Android SDK</span>
+                    <div>
+                      <p className="mb-2 text-sm font-medium text-gray-400">Libraries</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["Koin", "Dagger-Hilt", "Retrofit", "OkHttp", "Room", "Kotlin Flow", "Coroutines"].map((s) => (
+                          <Badge key={s} variant="secondary" className="bg-black/30 text-green-300">
+                            {s}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Jetpack Compose</span>
+                    <div>
+                      <p className="mb-2 text-sm font-medium text-gray-400">APIs & SDKs</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["REST API Integration", "JSON", "Third-party SDK (Analytics, Payment, Auth)"].map((s) => (
+                          <Badge key={s} variant="secondary" className="bg-black/30 text-green-300">
+                            {s}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">MVVM</span>
+                    <div>
+                      <p className="mb-2 text-sm font-medium text-gray-400">Tools</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["Android Studio", "Git", "Google Play Console", "Firebase", "Datadog", "Jira", "Figma"].map((s) => (
+                          <Badge key={s} variant="secondary" className="bg-black/30 text-green-300">
+                            {s}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Clean Architecture</span>
-                    </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">REST API</span>
-                    </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Git</span>
-                    </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">SQL</span>
-                    </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">JavaScript</span>
-                    </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">HTML/CSS</span>
-                    </div>
-                    <div className="rounded-lg border border-gray-800 bg-black/30 p-3 text-center">
-                      <span className="text-green-300">Python</span>
+                    <div>
+                      <p className="mb-2 text-sm font-medium text-gray-400">Practices</p>
+                      <div className="flex flex-wrap gap-2">
+                        {["Unit Testing", "CI/CD", "Code Review", "Agile/Scrum", "Documentation"].map((s) => (
+                          <Badge key={s} variant="secondary" className="bg-black/30 text-green-300">
+                            {s}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -260,28 +286,20 @@ export function ResumeSection() {
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
               <Card className="border-gray-800 bg-black/50 backdrop-blur-sm">
                 <CardHeader>
-                  <CardTitle className="text-lg font-bold">Certifications</CardTitle>
+                  <CardTitle className="text-lg font-bold">Certifications & Training</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="ml-6 list-disc space-y-4 text-gray-200">
                     <li>
                       <div className="flex flex-col">
-                        <span className="font-medium text-white">Associate Android Developer Certification</span>
-                        <span className="text-gray-400">Google Developers | 2022</span>
-                        <p className="mt-1 text-sm text-gray-300">
-                          Certified by Google as an Associate Android Developer, demonstrating proficiency in Android
-                          development fundamentals.
-                        </p>
+                        <span className="font-medium text-white">Bangkit Academy 2022 (Android Mobile Development)</span>
+                        <span className="text-gray-400">Distinction Graduate (Top 10% of 3,100 cohort)</span>
                       </div>
                     </li>
                     <li>
                       <div className="flex flex-col">
-                        <span className="font-medium text-white">Bangkit Academy Graduate</span>
-                        <span className="text-gray-400">Google, Tokopedia, Gojek, & Traveloka | 2022</span>
-                        <p className="mt-1 text-sm text-gray-300">
-                          Graduated with distinction (top 10%) from the Bangkit Academy program led by Google,
-                          Tokopedia, Gojek, and Traveloka.
-                        </p>
+                        <span className="font-medium text-white">Google Developers Associate Android Developer Certification</span>
+                        <span className="text-gray-400">2022 - 2025</span>
                       </div>
                     </li>
                   </ul>

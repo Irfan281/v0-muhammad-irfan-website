@@ -3,11 +3,13 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 export function Navbar() {
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState("home")
@@ -62,6 +64,11 @@ export function Navbar() {
       })
       setIsOpen(false) // Close mobile menu if open
     }
+  }
+
+  // Hide navbar on project detail pages
+  if (pathname?.startsWith("/portfolio/") && pathname !== "/portfolio") {
+    return null
   }
 
   return (
